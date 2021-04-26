@@ -1,0 +1,4 @@
+# SPRING PROFILES
+spring:
+  config:
+    import: classpath:application-center-dev.yml
