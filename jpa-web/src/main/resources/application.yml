@@ -1,0 +1,16 @@
+# Server settings
+server:
+  port: 8080
+  max-http-header-size: 8192
+  compression:
+    enabled: true
+    min-response-size: 1024
+    mime-types: text/plain,text/css,text/xml,text/javascript,application/json,application/javascript,application/xml,application/xml+rss,application/x-javascript,application/x-httpd-php,image/jpeg,image/gif,image/png
+  tomcat:
+    uri-encoding: UTF-8
+# SPRING PROFILES
+spring:
+  profiles:
+    active: '@profileActive@'
+  application:
+    name: jpa-web
