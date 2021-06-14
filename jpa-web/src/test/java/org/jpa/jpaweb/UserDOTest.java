@@ -1,5 +1,6 @@
 package org.jpa.jpaweb;
 
+import lombok.extern.slf4j.Slf4j;
 import org.jpa.japcore.pojo.UserDO;
 import org.jpa.japcore.repository.UserRepository;
 import org.junit.After;
@@ -21,6 +22,7 @@ import org.springframework.test.context.junit4.SpringRunner;
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
+@Slf4j
 public class UserDOTest {
     @Autowired
     private UserRepository userRepository;
@@ -38,12 +40,14 @@ public class UserDOTest {
         UserDO userDO = new UserDO();
         userDO.setId(1L);
         userDO.setUsername("zhang3");
+        log.info("password:{}",passwordEncoder.encode("123456"));
         userDO.setPassword(passwordEncoder.encode("123456"));
-        userRepository.save(userDO);
+        log.info("password:{}",passwordEncoder.encode("123456"));
+        //userRepository.save(userDO);
         userDO.setId(2L);
         userDO.setUsername("li4");
         userDO.setPassword(passwordEncoder.encode("program"));
-        userRepository.save(userDO);
+        //userRepository.save(userDO);
     }
 
 
