@@ -21,3 +21,17 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_9_0_33.xml
+.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_33.xml
+.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_33.xml
+.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_33.xml
+.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_45.xml
+.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_45.xml
+.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_33.xml
+.idea/misc.xml
+.idea/misc.xml
+.idea/workspace.xml
+.idea/misc.xml
+.idea/misc.xml
+.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_45.xml
+.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_45.xml
