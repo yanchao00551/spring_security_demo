@@ -35,3 +35,4 @@ hs_err_pid*
 .idea/misc.xml
 .idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_45.xml
 .idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_45.xml
+.idea
